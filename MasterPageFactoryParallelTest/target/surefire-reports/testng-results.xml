@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60134" started-at="2020-05-06T19:12:10 BST" finished-at="2020-05-06T19:13:10 BST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="60134" started-at="2020-05-06T19:12:10 BST" finished-at="2020-05-06T19:13:10 BST">
+      <class name="parallel.grid.roughWork.TestCase1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parallel.grid.roughWork.TestCase1@fe18270]" name="setUp" is-config="true" duration-ms="47" started-at="2020-05-06T19:12:10 BST" finished-at="2020-05-06T19:12:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DeleteWishListProduct(java.util.Hashtable)[pri:0, instance:parallel.grid.roughWork.TestCase1@fe18270]" name="DeleteWishListProduct" duration-ms="56489" started-at="2020-05-06T19:12:11 BST" data-provider="masterTestCases" finished-at="2020-05-06T19:13:07 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{saveitems=MICHAEL KROIS, password=sonsofgod, Runmode=Y, userName=bfatogun@yahoo.com, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteWishListProduct -->
+        <test-method status="PASS" signature="DeleteWishListProduct(java.util.Hashtable)[pri:0, instance:parallel.grid.roughWork.TestCase1@fe18270]" name="DeleteWishListProduct" duration-ms="55680" started-at="2020-05-06T19:12:11 BST" data-provider="masterTestCases" finished-at="2020-05-06T19:13:07 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{saveitems=DKNY, password=sonsofgod, Runmode=Y, userName=bfatogun@yahoo.com, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteWishListProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallel.grid.roughWork.TestCase1@fe18270]" name="tearDown" is-config="true" duration-ms="3695" started-at="2020-05-06T19:13:07 BST" finished-at="2020-05-06T19:13:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parallel.grid.roughWork.TestCase1@fe18270]" name="tearDown" is-config="true" duration-ms="2895" started-at="2020-05-06T19:13:07 BST" finished-at="2020-05-06T19:13:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallel.grid.roughWork.TestCase1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
